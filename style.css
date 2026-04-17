@@ -90,7 +90,7 @@ ul {
     text-decoration: underline;
 }
 
-/* Responsive: Stacks on small screens */
+
 @media (max-width: 480px) {
     .lists-container {
         flex-direction: column;
