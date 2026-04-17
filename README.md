@@ -24,3 +24,5 @@
 - Vanilla JavaScript
 
 ## 🔗 Live Link
+
+profile-card-stage-1b.netlify.app
