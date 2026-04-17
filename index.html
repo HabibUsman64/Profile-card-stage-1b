@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stage 1b - Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <article class="profile-card" data-testid="test-profile-card">
+        
+        <figure class="profile-image-container">
+            <img src="https://via.placeholder.com/150" 
+                 alt="Profile Avatar" 
+                 data-testid="test-user-avatar" 
+                 class="avatar">
+        </figure>
+
+        <header class="profile-header">
+            <h1 data-testid="test-user-name">Jane Doe</h1>
+            <p data-testid="test-user-bio" class="bio">
+                Passionate frontend developer and UI/UX enthusiast. I love building accessible web experiences.
+            </p>
+        </header>
+
+        <section class="time-section">
+            <p>Current Time (UTC):</p>
+            <div data-testid="test-user-time" class="utc-time" aria-live="polite">
+                0000000000000
+            </div>
+        </section>
+
+        <section class="lists-container">
+            <div class="list-group">
+                <h3>Hobbies</h3>
+                <ul data-testid="test-user-hobbies" role="list">
+                    <li>Coding</li>
+                    <li>Photography</li>
+                    <li>Gaming</li>
+                </ul>
+            </div>
+            <div class="list-group">
+                <h3>Dislikes</h3>
+                <ul data-testid="test-user-dislikes" role="list">
+                    <li>Downtime</li>
+                    <li>Cold Coffee</li>
+                    <li>Spam Emails</li>
+                </ul>
+            </div>
+        </section>
+
+        <nav class="social-links" data-testid="test-user-social-links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+        </nav>
+
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>
